@@ -1,0 +1,3 @@
+#generated images: 162688, #reference images: 49984
+Dimension 192 works! fid score:
+../all_imgs/cifar10 and ../all_imgs/celeba Average fid score: 8.606264272636285
