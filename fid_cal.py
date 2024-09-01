@@ -19,7 +19,7 @@ if __name__ == "__main__":
         len(os.listdir(args.new_data_dir)), len(os.listdir(args.ref_data_dir))))
 
     try:
-        fid_score = calculate_fid_given_paths(paths, BATCH_SIZE, device, dims=192)
+        fid_score = calculate_fid_given_paths(paths, BATCH_SIZE, device, dims=2048)
         print("Dimension {:d} works! fid score:".format(192, fid_score, args.new_data_dir))
     except:
         print("Dimension {:d} fails!".format(192))
