@@ -1,0 +1,55 @@
+Dataset:  cifar10
+Files already downloaded and verified
+Namespace(dataset='cifar10')
+Train:  50000
+Test:  10000
+dataset:  cifar10
+Entropy:  5.458608150482178
+==============================
+Dataset:  cifar100
+Files already downloaded and verified
+Namespace(dataset='cifar100')
+Train:  50000
+Test:  10000
+dataset:  cifar100
+Entropy:  5.451213836669922
+==============================
+Dataset:  mnist
+Namespace(dataset='mnist')
+Train:  60000
+Test:  10000
+dataset:  mnist
+Entropy:  1.6459815502166748
+==============================
+Dataset:  fashionmnist
+Namespace(dataset='fashionmnist')
+Train:  60000
+Test:  10000
+dataset:  fashionmnist
+Entropy:  3.453767776489258
+==============================
+Dataset:  svhn
+Using downloaded and verified file: ../data/train_32x32.mat
+Using downloaded and verified file: ../data/test_32x32.mat
+Namespace(dataset='svhn')
+Train:  73257
+Test:  26032
+dataset:  svhn
+Entropy:  5.30158805847168
+==============================
+Dataset:  imagenet32
+Namespace(dataset='imagenet32')
+Train:  1281167
+Test:  50000
+dataset:  imagenet32
+Entropy:  5.462038040161133
+==============================
+Dataset:  celeba
+Files already downloaded and verified
+Files already downloaded and verified
+Namespace(dataset='celeba')
+Train:  162770
+Test:  19962
+dataset:  celeba
+Entropy:  5.371587753295898
+==============================

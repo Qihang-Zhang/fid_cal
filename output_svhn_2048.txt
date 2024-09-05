@@ -1,0 +1,19 @@
+#generated images: 1281152, #reference images: 73248
+#generated images: 49984, #reference images: 73248
+Dimension 192 works! fid score:
+../all_imgs/svhn and ../all_imgs/cifar10 Average fid score: 163.73976360511244
+#generated images: 49984, #reference images: 73248
+Dimension 192 works! fid score:
+../all_imgs/svhn and ../all_imgs/cifar100 Average fid score: 148.78930208067186
+#generated images: 60000, #reference images: 73248
+Dimension 192 works! fid score:
+../all_imgs/svhn and ../all_imgs/mnist Average fid score: 227.70074926342107
+#generated images: 59904, #reference images: 73248
+Dimension 192 works! fid score:
+../all_imgs/svhn and ../all_imgs/fashionmnist Average fid score: 227.69236637563966
+#generated images: 73248, #reference images: 73248
+Dimension 192 works! fid score:
+../all_imgs/svhn and ../all_imgs/svhn Average fid score: -4.888534022029489e-12
+#generated images: 162688, #reference images: 73248
+Dimension 192 works! fid score:
+../all_imgs/svhn and ../all_imgs/celeba Average fid score: 211.610548185097
