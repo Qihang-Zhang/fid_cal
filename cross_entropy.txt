@@ -1,0 +1,476 @@
+Dataset:  celeba
+Files already downloaded and verified
+Files already downloaded and verified
+Dataset:  celeba
+Files already downloaded and verified
+Files already downloaded and verified
+Namespace(dataset_p='celeba', dataset_q='celeba')
+dataset_p:  celeba
+dataset_q:  celeba
+Cross_Entropy:  5.371587753295898
+KL_Divergence:  0.0
+==============================
+Dataset:  cifar10
+Files already downloaded and verified
+Dataset:  celeba
+Files already downloaded and verified
+Files already downloaded and verified
+Namespace(dataset_p='cifar10', dataset_q='celeba')
+dataset_p:  cifar10
+dataset_q:  celeba
+Cross_Entropy:  5.666001796722412
+KL_Divergence:  0.20739364624023438
+==============================
+Dataset:  cifar100
+Files already downloaded and verified
+Dataset:  celeba
+Files already downloaded and verified
+Files already downloaded and verified
+Namespace(dataset_p='cifar100', dataset_q='celeba')
+dataset_p:  cifar100
+dataset_q:  celeba
+Cross_Entropy:  5.654477596282959
+KL_Divergence:  0.2032637596130371
+==============================
+Dataset:  fashionmnist
+Dataset:  celeba
+Files already downloaded and verified
+Files already downloaded and verified
+Namespace(dataset_p='fashionmnist', dataset_q='celeba')
+dataset_p:  fashionmnist
+dataset_q:  celeba
+Cross_Entropy:  5.436845302581787
+KL_Divergence:  1.9830775260925293
+==============================
+Dataset:  imagenet32
+Dataset:  celeba
+Files already downloaded and verified
+Files already downloaded and verified
+Namespace(dataset_p='imagenet32', dataset_q='celeba')
+dataset_p:  imagenet32
+dataset_q:  celeba
+Cross_Entropy:  5.642734527587891
+KL_Divergence:  0.1806964874267578
+==============================
+Dataset:  mnist
+Dataset:  celeba
+Files already downloaded and verified
+Files already downloaded and verified
+Namespace(dataset_p='mnist', dataset_q='celeba')
+dataset_p:  mnist
+dataset_q:  celeba
+Cross_Entropy:  5.868537425994873
+KL_Divergence:  4.222556114196777
+==============================
+Dataset:  svhn
+Using downloaded and verified file: ../data/train_32x32.mat
+Using downloaded and verified file: ../data/test_32x32.mat
+Dataset:  celeba
+Files already downloaded and verified
+Files already downloaded and verified
+Namespace(dataset_p='svhn', dataset_q='celeba')
+dataset_p:  svhn
+dataset_q:  celeba
+Cross_Entropy:  5.679904460906982
+KL_Divergence:  0.37831640243530273
+==============================
+Dataset:  celeba
+Files already downloaded and verified
+Files already downloaded and verified
+Dataset:  cifar10
+Files already downloaded and verified
+Namespace(dataset_p='celeba', dataset_q='cifar10')
+dataset_p:  celeba
+dataset_q:  cifar10
+Cross_Entropy:  5.567830562591553
+KL_Divergence:  0.1962428092956543
+==============================
+Dataset:  cifar10
+Files already downloaded and verified
+Dataset:  cifar10
+Files already downloaded and verified
+Namespace(dataset_p='cifar10', dataset_q='cifar10')
+dataset_p:  cifar10
+dataset_q:  cifar10
+Cross_Entropy:  5.458608150482178
+KL_Divergence:  0.0
+==============================
+Dataset:  cifar100
+Files already downloaded and verified
+Dataset:  cifar10
+Files already downloaded and verified
+Namespace(dataset_p='cifar100', dataset_q='cifar10')
+dataset_p:  cifar100
+dataset_q:  cifar10
+Cross_Entropy:  5.472173690795898
+KL_Divergence:  0.020959854125976562
+==============================
+Dataset:  fashionmnist
+Dataset:  cifar10
+Files already downloaded and verified
+Namespace(dataset_p='fashionmnist', dataset_q='cifar10')
+dataset_p:  fashionmnist
+dataset_q:  cifar10
+Cross_Entropy:  5.796772003173828
+KL_Divergence:  2.3430042266845703
+==============================
+Dataset:  imagenet32
+Dataset:  cifar10
+Files already downloaded and verified
+Namespace(dataset_p='imagenet32', dataset_q='cifar10')
+dataset_p:  imagenet32
+dataset_q:  cifar10
+Cross_Entropy:  5.484126091003418
+KL_Divergence:  0.022088050842285156
+==============================
+Dataset:  mnist
+Dataset:  cifar10
+Files already downloaded and verified
+Namespace(dataset_p='mnist', dataset_q='cifar10')
+dataset_p:  mnist
+dataset_q:  cifar10
+Cross_Entropy:  5.982783317565918
+KL_Divergence:  4.336802005767822
+==============================
+Dataset:  svhn
+Using downloaded and verified file: ../data/train_32x32.mat
+Using downloaded and verified file: ../data/test_32x32.mat
+Dataset:  cifar10
+Files already downloaded and verified
+Namespace(dataset_p='svhn', dataset_q='cifar10')
+dataset_p:  svhn
+dataset_q:  cifar10
+Cross_Entropy:  5.411232948303223
+KL_Divergence:  0.10964488983154297
+==============================
+Dataset:  celeba
+Files already downloaded and verified
+Files already downloaded and verified
+Dataset:  cifar100
+Files already downloaded and verified
+Namespace(dataset_p='celeba', dataset_q='cifar100')
+dataset_p:  celeba
+dataset_q:  cifar100
+Cross_Entropy:  5.542792320251465
+KL_Divergence:  0.1712045669555664
+==============================
+Dataset:  cifar10
+Files already downloaded and verified
+Dataset:  cifar100
+Files already downloaded and verified
+Namespace(dataset_p='cifar10', dataset_q='cifar100')
+dataset_p:  cifar10
+dataset_q:  cifar100
+Cross_Entropy:  5.476979732513428
+KL_Divergence:  0.01837158203125
+==============================
+Dataset:  cifar100
+Files already downloaded and verified
+Dataset:  cifar100
+Files already downloaded and verified
+Namespace(dataset_p='cifar100', dataset_q='cifar100')
+dataset_p:  cifar100
+dataset_q:  cifar100
+Cross_Entropy:  5.451213836669922
+KL_Divergence:  0.0
+==============================
+Dataset:  fashionmnist
+Dataset:  cifar100
+Files already downloaded and verified
+Namespace(dataset_p='fashionmnist', dataset_q='cifar100')
+dataset_p:  fashionmnist
+dataset_q:  cifar100
+Cross_Entropy:  5.586019039154053
+KL_Divergence:  2.132251262664795
+==============================
+Dataset:  imagenet32
+Dataset:  cifar100
+Files already downloaded and verified
+Namespace(dataset_p='imagenet32', dataset_q='cifar100')
+dataset_p:  imagenet32
+dataset_q:  cifar100
+Cross_Entropy:  5.476795196533203
+KL_Divergence:  0.014757156372070312
+==============================
+Dataset:  mnist
+Dataset:  cifar100
+Files already downloaded and verified
+Namespace(dataset_p='mnist', dataset_q='cifar100')
+dataset_p:  mnist
+dataset_q:  cifar100
+Cross_Entropy:  5.627347469329834
+KL_Divergence:  3.9813661575317383
+==============================
+Dataset:  svhn
+Using downloaded and verified file: ../data/train_32x32.mat
+Using downloaded and verified file: ../data/test_32x32.mat
+Dataset:  cifar100
+Files already downloaded and verified
+Namespace(dataset_p='svhn', dataset_q='cifar100')
+dataset_p:  svhn
+dataset_q:  cifar100
+Cross_Entropy:  5.455613613128662
+KL_Divergence:  0.15402555465698242
+==============================
+Dataset:  celeba
+Files already downloaded and verified
+Files already downloaded and verified
+Dataset:  fashionmnist
+Namespace(dataset_p='celeba', dataset_q='fashionmnist')
+dataset_p:  celeba
+dataset_q:  fashionmnist
+Cross_Entropy:  7.879542350769043
+KL_Divergence:  2.5079545974731445
+==============================
+Dataset:  cifar10
+Files already downloaded and verified
+Dataset:  fashionmnist
+Namespace(dataset_p='cifar10', dataset_q='fashionmnist')
+dataset_p:  cifar10
+dataset_q:  fashionmnist
+Cross_Entropy:  7.932682991027832
+KL_Divergence:  2.4740748405456543
+==============================
+Dataset:  cifar100
+Files already downloaded and verified
+Dataset:  fashionmnist
+Namespace(dataset_p='cifar100', dataset_q='fashionmnist')
+dataset_p:  cifar100
+dataset_q:  fashionmnist
+Cross_Entropy:  8.276203155517578
+KL_Divergence:  2.8249893188476562
+==============================
+Dataset:  fashionmnist
+Dataset:  fashionmnist
+Namespace(dataset_p='fashionmnist', dataset_q='fashionmnist')
+dataset_p:  fashionmnist
+dataset_q:  fashionmnist
+Cross_Entropy:  3.453767776489258
+KL_Divergence:  0.0
+==============================
+Dataset:  imagenet32
+Dataset:  fashionmnist
+Namespace(dataset_p='imagenet32', dataset_q='fashionmnist')
+dataset_p:  imagenet32
+dataset_q:  fashionmnist
+Cross_Entropy:  7.882089138031006
+KL_Divergence:  2.420051097869873
+==============================
+Dataset:  mnist
+Dataset:  fashionmnist
+Namespace(dataset_p='mnist', dataset_q='fashionmnist')
+dataset_p:  mnist
+dataset_q:  fashionmnist
+Cross_Entropy:  2.227201461791992
+KL_Divergence:  0.5812201499938965
+==============================
+Dataset:  svhn
+Using downloaded and verified file: ../data/train_32x32.mat
+Using downloaded and verified file: ../data/test_32x32.mat
+Dataset:  fashionmnist
+Namespace(dataset_p='svhn', dataset_q='fashionmnist')
+dataset_p:  svhn
+dataset_q:  fashionmnist
+Cross_Entropy:  7.503331661224365
+KL_Divergence:  2.2017436027526855
+==============================
+Dataset:  celeba
+Files already downloaded and verified
+Files already downloaded and verified
+Dataset:  imagenet32
+Namespace(dataset_p='celeba', dataset_q='imagenet32')
+dataset_p:  celeba
+dataset_q:  imagenet32
+Cross_Entropy:  5.517017364501953
+KL_Divergence:  0.1454296112060547
+==============================
+Dataset:  cifar10
+Files already downloaded and verified
+Dataset:  imagenet32
+Namespace(dataset_p='cifar10', dataset_q='imagenet32')
+dataset_p:  cifar10
+dataset_q:  imagenet32
+Cross_Entropy:  5.478309154510498
+KL_Divergence:  0.019701004028320312
+==============================
+Dataset:  cifar100
+Files already downloaded and verified
+Dataset:  imagenet32
+Namespace(dataset_p='cifar100', dataset_q='imagenet32')
+dataset_p:  cifar100
+dataset_q:  imagenet32
+Cross_Entropy:  5.467240333557129
+KL_Divergence:  0.01602649688720703
+==============================
+Dataset:  fashionmnist
+Dataset:  imagenet32
+Namespace(dataset_p='fashionmnist', dataset_q='imagenet32')
+dataset_p:  fashionmnist
+dataset_q:  imagenet32
+Cross_Entropy:  5.3877973556518555
+KL_Divergence:  1.9340295791625977
+==============================
+Dataset:  imagenet32
+Dataset:  imagenet32
+Namespace(dataset_p='imagenet32', dataset_q='imagenet32')
+dataset_p:  imagenet32
+dataset_q:  imagenet32
+Cross_Entropy:  5.462038040161133
+KL_Divergence:  0.0
+==============================
+Dataset:  mnist
+Dataset:  imagenet32
+Namespace(dataset_p='mnist', dataset_q='imagenet32')
+dataset_p:  mnist
+dataset_q:  imagenet32
+Cross_Entropy:  5.3360915184021
+KL_Divergence:  3.690110206604004
+==============================
+Dataset:  svhn
+Using downloaded and verified file: ../data/train_32x32.mat
+Using downloaded and verified file: ../data/test_32x32.mat
+Dataset:  imagenet32
+Namespace(dataset_p='svhn', dataset_q='imagenet32')
+dataset_p:  svhn
+dataset_q:  imagenet32
+Cross_Entropy:  5.447616100311279
+KL_Divergence:  0.1460280418395996
+==============================
+Dataset:  celeba
+Files already downloaded and verified
+Files already downloaded and verified
+Dataset:  mnist
+Namespace(dataset_p='celeba', dataset_q='mnist')
+dataset_p:  celeba
+dataset_q:  mnist
+Cross_Entropy:  14.602041244506836
+KL_Divergence:  9.230453491210938
+==============================
+Dataset:  cifar10
+Files already downloaded and verified
+Dataset:  mnist
+Namespace(dataset_p='cifar10', dataset_q='mnist')
+dataset_p:  cifar10
+dataset_q:  mnist
+Cross_Entropy:  15.016302108764648
+KL_Divergence:  9.557693481445312
+==============================
+Dataset:  cifar100
+Files already downloaded and verified
+Dataset:  mnist
+Namespace(dataset_p='cifar100', dataset_q='mnist')
+dataset_p:  cifar100
+dataset_q:  mnist
+Cross_Entropy:  15.00574779510498
+KL_Divergence:  9.554533958435059
+==============================
+Dataset:  fashionmnist
+Dataset:  mnist
+Namespace(dataset_p='fashionmnist', dataset_q='mnist')
+dataset_p:  fashionmnist
+dataset_q:  mnist
+Cross_Entropy:  5.434783935546875
+KL_Divergence:  1.9810161590576172
+==============================
+Dataset:  imagenet32
+Dataset:  mnist
+Namespace(dataset_p='imagenet32', dataset_q='mnist')
+dataset_p:  imagenet32
+dataset_q:  mnist
+Cross_Entropy:  14.800506591796875
+KL_Divergence:  9.338468551635742
+==============================
+Dataset:  mnist
+Dataset:  mnist
+Namespace(dataset_p='mnist', dataset_q='mnist')
+dataset_p:  mnist
+dataset_q:  mnist
+Cross_Entropy:  1.6459813117980957
+KL_Divergence:  0.0
+==============================
+Dataset:  svhn
+Using downloaded and verified file: ../data/train_32x32.mat
+Using downloaded and verified file: ../data/test_32x32.mat
+Dataset:  mnist
+Namespace(dataset_p='svhn', dataset_q='mnist')
+dataset_p:  svhn
+dataset_q:  mnist
+Cross_Entropy:  14.99021053314209
+KL_Divergence:  9.68862247467041
+==============================
+Dataset:  celeba
+Files already downloaded and verified
+Files already downloaded and verified
+Dataset:  svhn
+Using downloaded and verified file: ../data/train_32x32.mat
+Using downloaded and verified file: ../data/test_32x32.mat
+Namespace(dataset_p='celeba', dataset_q='svhn')
+dataset_p:  celeba
+dataset_q:  svhn
+Cross_Entropy:  5.978595733642578
+KL_Divergence:  0.6070079803466797
+==============================
+Dataset:  cifar10
+Files already downloaded and verified
+Dataset:  svhn
+Using downloaded and verified file: ../data/train_32x32.mat
+Using downloaded and verified file: ../data/test_32x32.mat
+Namespace(dataset_p='cifar10', dataset_q='svhn')
+dataset_p:  cifar10
+dataset_q:  svhn
+Cross_Entropy:  5.633551597595215
+KL_Divergence:  0.1749434471130371
+==============================
+Dataset:  cifar100
+Files already downloaded and verified
+Dataset:  svhn
+Using downloaded and verified file: ../data/train_32x32.mat
+Using downloaded and verified file: ../data/test_32x32.mat
+Namespace(dataset_p='cifar100', dataset_q='svhn')
+dataset_p:  cifar100
+dataset_q:  svhn
+Cross_Entropy:  5.730158805847168
+KL_Divergence:  0.2789449691772461
+==============================
+Dataset:  fashionmnist
+Dataset:  svhn
+Using downloaded and verified file: ../data/train_32x32.mat
+Using downloaded and verified file: ../data/test_32x32.mat
+Namespace(dataset_p='fashionmnist', dataset_q='svhn')
+dataset_p:  fashionmnist
+dataset_q:  svhn
+Cross_Entropy:  7.902956008911133
+KL_Divergence:  4.449188232421875
+==============================
+Dataset:  imagenet32
+Dataset:  svhn
+Using downloaded and verified file: ../data/train_32x32.mat
+Using downloaded and verified file: ../data/test_32x32.mat
+Namespace(dataset_p='imagenet32', dataset_q='svhn')
+dataset_p:  imagenet32
+dataset_q:  svhn
+Cross_Entropy:  5.743324279785156
+KL_Divergence:  0.28128623962402344
+==============================
+Dataset:  mnist
+Dataset:  svhn
+Using downloaded and verified file: ../data/train_32x32.mat
+Using downloaded and verified file: ../data/test_32x32.mat
+Namespace(dataset_p='mnist', dataset_q='svhn')
+dataset_p:  mnist
+dataset_q:  svhn
+Cross_Entropy:  9.111067771911621
+KL_Divergence:  7.465086460113525
+==============================
+Dataset:  svhn
+Using downloaded and verified file: ../data/train_32x32.mat
+Using downloaded and verified file: ../data/test_32x32.mat
+Dataset:  svhn
+Using downloaded and verified file: ../data/train_32x32.mat
+Using downloaded and verified file: ../data/test_32x32.mat
+Namespace(dataset_p='svhn', dataset_q='svhn')
+dataset_p:  svhn
+dataset_q:  svhn
+Cross_Entropy:  5.30158805847168
+KL_Divergence:  0.0
+==============================

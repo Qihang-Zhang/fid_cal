@@ -106,31 +106,23 @@ def save_img(tensor, save_dir, batch_idx):
 # main func
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--dataset', type=str, default='cifar10', help='dataset to expand')
+    parser.add_argument('--dataset_p', type=str, default='cifar10', help='dataset to expand')
+    parser.add_argument('--dataset_q', type=str, default='cifar10', help='dataset to expand')
     args = parser.parse_args()
     
-    train_loader, test_loader = set_data(args.dataset)
+    train_loader_p, test_loader_p = set_data(args.dataset_p)
+    train_loader_q, test_loader_q = set_data(args.dataset_q)
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     print(args)
-    print("Train: ", len(train_loader.dataset))
-    print("Test: ", len(test_loader.dataset))
-    count_tensor = torch.tensor(0).to(device)
-    for batch_idx, (images, categories) in enumerate(tqdm(train_loader)):
-        if images.max() > 1 or images.min() < 0:
-            raise ValueError('Image range should be [0, 1]')
-        else:
-            images = (images * 255).to(torch.long).to(device)
-            #onehot embedding
-            one_hot_labels = torch.nn.functional.one_hot(images, num_classes=256)
-            one_hot_sum = one_hot_labels.sum(dim=0)
-            count_tensor = count_tensor + one_hot_sum
     
-    count_tensor = count_tensor.float() + 1e-10        
-    frequency = count_tensor / count_tensor.sum(dim = -1, keepdim = True)
-    log_frequency = torch.log(frequency)
-    entropy = - (frequency * log_frequency).sum(dim = -1).mean()
-    # save frequency tensor
-    torch.save(frequency, 'frequency_{}.pt'.format(args.dataset))
-    print("dataset: ", args.dataset)
-    print("Entropy: ", entropy.item())
+    #load frequency tensor
+    frequency_p = torch.load('frequency_{}.pt'.format(args.dataset_p)).to(device)
+    frequency_q = torch.load('frequency_{}.pt'.format(args.dataset_q)).to(device)
+    entropy = - (frequency_p * torch.log(frequency_q)).sum(dim = -1).mean()
+    kl_divergence = entropy + (frequency_p * torch.log(frequency_p)).sum(dim = -1).mean()
+    
+    print("dataset_p: ", args.dataset_p)
+    print("dataset_q: ", args.dataset_q)
+    print("Cross_Entropy: ", entropy.item())
+    print("KL_Divergence: ", kl_divergence.item())
     print("=" * 30)

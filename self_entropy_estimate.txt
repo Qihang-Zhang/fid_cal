@@ -19,7 +19,7 @@ Namespace(dataset='mnist')
 Train:  60000
 Test:  10000
 dataset:  mnist
-Entropy:  1.6459815502166748
+Entropy:  1.6459813117980957
 ==============================
 Dataset:  fashionmnist
 Namespace(dataset='fashionmnist')
